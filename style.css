@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: whitesmoke;
+    font-weight: bold;
+    background:rgba(0,0,0,.2);
+}
+
+#time {
+    font-size: 8rem;
+}
+
+#greeting {
+    font-size: 3rem;
+    border-bottom: solid 2px gray;
+    margin-bottom: 8rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    bottom: 4rem;
+    font-size: 2.4rem;
+    margin: 3rem 0 1.5rem 0;
+    opacity: 0.9;
+}
+
+
+button {
+    position: absolute;
+    bottom: 1.6rem;
+    background: rgba(0,0,0,.6);
+    color: whitesmoke;
+    padding: .75em 1.5em;
+    text-align: center;
+    margin-top: 2em;
+    font-weight: bold;
+    border-radius: 1rem;
+    letter-spacing: 0.15rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
